@@ -1,17 +1,17 @@
 class ZlrdLite < Formula
   desc "Fast log viewer (reader-only, lightweight build)"
   homepage "https://github.com/alaleks/zlrd"
-  version "1.0.3"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/alaleks/zlrd/releases/download/v1.0.3/zlrd-lite-aarch64-macos.tar.gz"
-      sha256 "07a729e0aac3090c66ddad25f85456f8ee8d47d01f42cb4e11bd0ca4ef5e8528"
+      url "https://github.com/alaleks/zlrd/releases/download/v1.1.0/zlrd-lite-aarch64-macos.tar.gz"
+      sha256 "2f7613483cb4035da267bdc5f1e692b865667a0956aa6574f0a8d184bf28c0f2"
     end
     on_intel do
-      url "https://github.com/alaleks/zlrd/releases/download/v1.0.3/zlrd-lite-x86_64-macos.tar.gz"
-      sha256 "b9600ca28ad43b561af6d04d5e5b93d03b38b93551f3be6854c1db1a3af37874"
+      url "https://github.com/alaleks/zlrd/releases/download/v1.1.0/zlrd-lite-x86_64-macos.tar.gz"
+      sha256 "1056306c7454a3b0e40a5ad92d104e4d4d046472cf457047e8033e7b3855451a"
     end
   end
 
