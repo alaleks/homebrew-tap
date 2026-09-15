@@ -1,17 +1,17 @@
 class Zlrd < Formula
   desc "Fast log viewer: tail/grep alternative with filtering and coloring"
   homepage "https://github.com/alaleks/zlrd"
-  version "1.3.2"
+  version "1.3.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/alaleks/zlrd/releases/download/v1.3.2/zlrd-aarch64-macos.tar.gz"
-      sha256 "ff6c4587267b4fa30fc622f2e984b70721b41b4b7aeac826c695c9ef757e985e"
+      url "https://github.com/alaleks/zlrd/releases/download/v1.3.3/zlrd-aarch64-macos.tar.gz"
+      sha256 "8edd9b451ba7ef6f715d201730e02d6b750cd379f7c35aea2a9d344ede6f344b"
     end
     on_intel do
-      url "https://github.com/alaleks/zlrd/releases/download/v1.3.2/zlrd-x86_64-macos.tar.gz"
-      sha256 "5e1898fe15b0137b0ad0c31c5aa64570eb7016f12f8241d3b6268dd857cf115f"
+      url "https://github.com/alaleks/zlrd/releases/download/v1.3.3/zlrd-x86_64-macos.tar.gz"
+      sha256 "b68dc71f028d57a3c356ab987bcf0d247f93e40e3a7a950648f2d6e8ce549658"
     end
   end
 
